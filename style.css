@@ -19,6 +19,19 @@ body {
 
 header {
   padding: 10px 50px;
+  justify-content: space-around;
+}
+
+header h1 {
+  font-family: 'Modak', cursive;
+  font-size: 8em;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.header-text {
+  display: flex;
+  justify-content: space-around;
 }
 
 nav {
@@ -26,11 +39,10 @@ nav {
   justify-content: space-between;
 }
 
-header h1 {
-  font-family: 'Modak', cursive;
-  font-size: 400;
-  font-size: 8em;
-  font-weight: normal;
+nav p {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
 }
 /* font-family: 'Dosis', sans-serif; */
 /* font-family: 'Modak', cursive; */
