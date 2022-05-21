@@ -1,13 +1,37 @@
 
 
-
+html {
+  height: 100%;
+}
 
 
 body {
-  background-color: beige;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100%;
+
+  /* background-color: #CCDCE4; blue tint   */
+  background-color: #C4CCD4; 
+  /* background-color: #D4E4EC; bright */
+}
+
+header {
+  padding: 10px 50px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
 }
+
+header h1 {
+  font-family: 'Modak', cursive;
+  font-size: 400;
+  font-size: 8em;
+  font-weight: normal;
+}
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Modak', cursive; */
+/* font-family: 'Yanone Kaffeesatz', sans-serif; */
