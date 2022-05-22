@@ -54,7 +54,6 @@ nav {
   top: 0;
   left: 7.8em;
   right: 7.8em;
-
   height: 10vh;
 }
 
@@ -63,13 +62,16 @@ nav p {
   font-weight: 500;
   font-size: 1.5em;
   color: var(--regular-text);
+  display: inline-block;
 }
 
 nav p:nth-child(1) {
+  position: absolute;
   left: 0;
 }
 
 nav p:nth-child(2) {
+  position: absolute;
   right: 0;
 }
 
