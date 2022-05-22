@@ -26,16 +26,21 @@ h1, h2, h3, h4, h5, h6 {
   /* color: #FCA404; better & warmer */
 }
 
-header :not(nav) {
-  height: 100vh;
-  padding: 10px 50px;
+header {
+  /* height: 100vh; */
+  /* padding: 10px 50px; */
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.header-text {
+
 }
 
 header h1 {
   font-family: 'Modak', cursive;
-  font-size: 8em;
+  font-size: 10em;
   font-weight: 400;
   display: inline-block;
 }
@@ -43,7 +48,7 @@ header h1 {
 nav {
   display: flex;
   justify-content: space-between;
-  height: 10vh;
+  margin: 10px 50px;
 }
 
 nav p {
