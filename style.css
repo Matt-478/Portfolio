@@ -1,4 +1,8 @@
-
+:root {
+  --main-accent: #dda122;
+  /* --regular-text: #242424; ++ */
+  --regular-text: #141414;
+}
 
 html {
   height: 100%;
@@ -17,8 +21,15 @@ body {
   /* background-color: #D4E4EC; bright */
 }
 
-header {
+h1, h2, h3, h4, h5, h6 {
+  color: var(--main-accent)
+  /* color: #FCA404; better & warmer */
+}
+
+header :not(nav) {
+  height: 100vh;
   padding: 10px 50px;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -29,20 +40,17 @@ header h1 {
   display: inline-block;
 }
 
-.header-text {
-  display: flex;
-  justify-content: space-around;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
+  height: 10vh;
 }
 
 nav p {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 400;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 500;
   font-size: 1.5em;
+  color: var(--regular-text);
 }
 /* font-family: 'Dosis', sans-serif; */
 /* font-family: 'Modak', cursive; */
