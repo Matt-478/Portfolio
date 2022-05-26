@@ -24,11 +24,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--main-accent)
-  /* color: #FCA404; better & warmer */
+  color: var(--main-accent);
+  font-family: 'Modak', cursive;
+  font-size: 10em;
+  font-weight: 400;
 }
 
-header {
+header, section {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -41,9 +43,6 @@ header {
 }
 
 header h1 {
-  font-family: 'Modak', cursive;
-  font-size: 10em;
-  font-weight: 400;
   display: inline-block;
   margin-block: auto;
 
@@ -79,3 +78,20 @@ nav p:nth-child(2) {
 
 /* font-family: 'Modak', cursive; */
 /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+
+
+
+
+/*  || ABOUT ME SECTION || ABOUT ME SECTION ||  ABOUT ME SECTION ||  ABOUT ME SECTION ||  ABOUT ME SECTION ||  */
+/*  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || */
+
+.about-me {
+  position: relative;
+}
+
+.about-me h4 {
+  font-size: 6em;
+  position: absolute;
+  top: 0;
+  left: 3em;
+}
