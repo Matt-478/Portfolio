@@ -1,5 +1,6 @@
 :root {
-  --main-accent: #dda122;
+  /* --main-accent: #dda122; */
+  --main-accent: #eeb334;
   /* --regular-text: #242424; ++ */
   --regular-text: #141414;
 }
@@ -17,7 +18,8 @@ body {
   min-height: 100%;
 
   /* background-color: #CCDCE4; blue tint   */
-  background-color: #C4CCD4; 
+  /* background-color: #C4CCD4;  */
+  background-color: #ebf5ff; 
   /* background-color: #D4E4EC; bright */
 }
 
