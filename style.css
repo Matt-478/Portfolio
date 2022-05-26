@@ -95,3 +95,24 @@ nav p:nth-child(2) {
   top: 0;
   left: 3em;
 }
+
+.about-me .avatar-area {
+  position: relative;
+  top: 15em;
+  left: -25em;
+}
+
+.about-me .avatar {
+  height: 20em;
+  display: inline-block;
+  position: absolute;
+  top: 0em;
+  left: 2em;
+}
+
+.circle {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  background-color: blue;
+}
