@@ -30,19 +30,43 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-header, section {
-  height: 100vh;
+p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+header {
+  grid-row: 1 / 7;
+  grid-column: 2 / 5;
+  background-color: darkgray;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr)
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* header, section {
+   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
+  flex-direction: column; 
+} */
 
-.header-text {
 
-}
-
-header h1 {
+/* header h1 {
   display: inline-block;
   margin-block: auto;
 
@@ -74,7 +98,7 @@ nav p:nth-child(1) {
 nav p:nth-child(2) {
   position: absolute;
   right: 0;
-}
+} */
 
 /* font-family: 'Modak', cursive; */
 /* font-family: 'Yanone Kaffeesatz', sans-serif; */
@@ -85,7 +109,7 @@ nav p:nth-child(2) {
 /*  || ABOUT ME SECTION || ABOUT ME SECTION ||  ABOUT ME SECTION ||  ABOUT ME SECTION ||  ABOUT ME SECTION ||  */
 /*  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || */
 
-.about-me {
+/* .about-me {
   position: relative;
 }
 
@@ -115,4 +139,22 @@ nav p:nth-child(2) {
   width: 20rem;
   border-radius: 50%;
   background-color: blue;
+} */
+
+
+/* section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
+
+section h4 {
+  grid-column: 2 / 4;
+  background-color: crimson;
+}
+
+section .avatar {
+  height: 20em;
+  grid-column: 2 / 3;
+  background-color: cornflowerblue;
+} */
