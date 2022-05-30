@@ -38,14 +38,14 @@ p {
 
 body {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
 
 header {
   grid-row: 1 / 7;
-  grid-column: 2 / 5;
-  background-color: darkgray;
+  grid-column: 2 / 8;
+  /* background-color: darkgray; */
 
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -55,6 +55,27 @@ header {
 header nav {
   display: flex;
   justify-content: space-between;
+
+  grid-row: 1 / 2;
+  grid-column: 1/ 7;
+}
+
+header h1 {
+  grid-row: 3 / 5;
+  grid-column: 1 / 7;
+  justify-self: center;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  padding: unset;
+  margin: unset;
+}
+
+header p {
+  grid-row: 4 / 5;
+  grid-column: 1 / 8;
+  justify-self: center;
 }
 
 /* header, section {
