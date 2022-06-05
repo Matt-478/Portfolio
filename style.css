@@ -85,16 +85,34 @@ header p {
   grid-row: 7 / 13;
   grid-column: 2 / 8;
 
-  height: 100vh
-  /* display: grid; */
-  /* grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(6, 1fr); */
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 
 .about-me h4 {
   margin-top: 2rem;
   margin-bottom: 0;
+
+  grid-column: 1 / 9;
+  grid-row: 1 / 2;
+
+  justify-self: center;
 }
+
+.about-me .avatar {
+  grid-column: 1 / 4;
+  grid-row: 2 / 4;
+}
+
+.about-me p {
+  grid-column: 5 / 9;
+  grid-row: 2 / 6;
+}
+
+
 /* header, section {
    height: 100vh;
   display: flex;
