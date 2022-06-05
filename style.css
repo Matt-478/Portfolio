@@ -93,18 +93,22 @@ header p {
 }
 
 .about-me h4 {
-  margin-top: 2rem;
-  margin-bottom: 0;
-
   grid-column: 1 / 9;
   grid-row: 1 / 2;
 
+  margin-top: 2rem;
+  margin-bottom: 0;
+
   justify-self: center;
+  margin-block: auto;
 }
 
 .about-me .avatar {
   grid-column: 1 / 4;
   grid-row: 2 / 4;
+
+  margin-top: -60px;
+  margin-left: 70px;
 }
 
 .about-me p {
