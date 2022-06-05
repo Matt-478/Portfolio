@@ -39,13 +39,15 @@ p {
 body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 header {
-  grid-row: 1 / 7;
   grid-column: 2 / 8;
-  /* background-color: darkgray; */
+  grid-row: 1 / 7;
+  background-color: darkgray;
+
+  height: 100vh;
 
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -78,6 +80,21 @@ header p {
   justify-self: center;
 }
 
+.about-me {
+  background-color: blanchedalmond;
+  grid-row: 7 / 13;
+  grid-column: 2 / 8;
+
+  height: 100vh
+  /* display: grid; */
+  /* grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr); */
+}
+
+.about-me h4 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
 /* header, section {
    height: 100vh;
   display: flex;
