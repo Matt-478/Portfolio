@@ -36,6 +36,15 @@ p {
   font-size: 1.8em;
 }
 
+a {
+  text-decoration: none;
+  color: var(--regular-text);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -62,6 +71,11 @@ header nav {
   grid-column: 1/ 7;
 }
 
+header nav p {
+  margin: auto;
+  margin-top: 2rem;
+}
+
 header h1 {
   grid-row: 3 / 5;
   grid-column: 1 / 7;
@@ -77,6 +91,7 @@ header h1 {
 header p {
   grid-row: 4 / 5;
   grid-column: 1 / 8;
+
   justify-self: center;
 }
 
