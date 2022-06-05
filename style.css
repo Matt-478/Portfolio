@@ -45,7 +45,7 @@ body {
 header {
   grid-column: 2 / 8;
   grid-row: 1 / 7;
-  background-color: darkgray;
+  /* background-color: darkgray; */
 
   height: 100vh;
 
@@ -81,7 +81,7 @@ header p {
 }
 
 .about-me {
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   grid-row: 7 / 13;
   grid-column: 2 / 8;
 
@@ -107,13 +107,18 @@ header p {
   grid-column: 1 / 4;
   grid-row: 2 / 4;
 
-  margin-top: -60px;
+  /* margin-top: -40px; */
+  margin-top: 0.2rem;
   margin-left: 70px;
 }
 
 .about-me p {
-  grid-column: 5 / 9;
+  grid-column: 4 / 9;
   grid-row: 2 / 6;
+
+  margin: 0;
+  margin-top: 4.5rem;
+  margin-left: 50px;
 }
 
 
