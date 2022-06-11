@@ -95,6 +95,10 @@ header p {
   justify-self: center;
 }
 
+
+
+
+/* ABOUT ME     ABOUT ME    ABOUT ME    ABOUT ME    ABOUT ME    ABOUT ME    ABOUT ME    ABOUT ME    ABOUT ME    ABOUT ME    ABOUT ME    ABOUT ME    ABOUT ME*/
 .about-me {
   /* background-color: blanchedalmond; */
   /* grid-row: 7 / 10; */
@@ -138,6 +142,18 @@ header p {
 }
 
 
+
+
+
+
+
+/*    MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK */
+/* !READ BEFORE! 
+    h4 needs to be centered
+    create previews or at least images fot each piece
+    rounded corner components
+
+   */
 .my-work {
   grid-row: 7 / 10;
   grid-column: 2 / 8;
