@@ -53,7 +53,7 @@ body {
 
 header {
   grid-column: 2 / 8;
-  grid-row: 1 / 7;
+  grid-row: 1 / 4;
   /* background-color: darkgray; */
 
   height: 100vh;
@@ -97,7 +97,8 @@ header p {
 
 .about-me {
   /* background-color: blanchedalmond; */
-  grid-row: 7 / 13;
+  /* grid-row: 7 / 10; */
+  grid-row: 4 / 7;
   grid-column: 2 / 8;
 
   height: 100vh;
@@ -137,3 +138,16 @@ header p {
 }
 
 
+.my-work {
+  grid-row: 7 / 10;
+  grid-column: 2 / 8;
+
+  height: 100vh;
+}
+
+.my-work h4 {
+  justify-self: center;
+
+  margin-bottom: 0;
+  margin-block: auto;
+}
