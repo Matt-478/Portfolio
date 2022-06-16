@@ -159,10 +159,8 @@ header p {
 
 /*    MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK   MY WORK */
 /* !READ BEFORE! 
-    h4 needs to be centered
-    create previews or at least images fot each piece
-    rounded corner components
-
+    create previews, images or short vids for each piece
+    make the links "jump" nicer, more precisely
    */
 .my-work {
   grid-row: 7 / 10;
