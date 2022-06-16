@@ -179,10 +179,11 @@ header p {
 .my-work h4 {
   grid-column: 1 / 8;
   grid-row: 1 / 3;
-  justify-self: center;
+  justify-self: end;
 
-  margin-bottom: 0;
-  margin-block: auto;
+  /* margin-block: unset; */
+  /* margin-bottom: -8rem */
+  margin-top: 0.5em;
 }
 
 .portfolio-preview-component {
@@ -207,5 +208,5 @@ header p {
 }
 
 .portfolio-preview-component h5 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
