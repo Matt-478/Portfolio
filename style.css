@@ -17,10 +17,11 @@ body {
   width: 100%;
   min-height: 100%;
 
-  /* background-color: #CCDCE4; blue tint   */
-  /* background-color: #C4CCD4;  */
   background-color: #ebf5ff; 
-  /* background-color: #D4E4EC; bright */
+
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,12 +48,12 @@ a:hover {
 
 body {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(12, 1fr);
 }
 
 header {
-  grid-column: 2 / 8;
+  grid-column: 2 / 9;
   grid-row: 1 / 4;
   /* background-color: darkgray; */
 
@@ -102,7 +103,7 @@ header p {
 .about-me {
   /* background-color: blanchedalmond; */
   grid-row: 4 / 7;
-  grid-column: 2 / 8;
+  grid-column: 2 / 9;
 
   height: 100vh;
 
@@ -157,12 +158,12 @@ header p {
    */
 .my-work {
   grid-row: 7 / 10;
-  grid-column: 2 / 8;
+  grid-column: 2 / 9;
 
   height: 100vh;
 
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(8, 1fr);
   gap: 1em;
 }
