@@ -24,17 +24,25 @@ body {
   grid-template-rows: repeat(12, 1fr);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   color: var(--main-accent);
   font-family: 'Modak', cursive;
   font-size: 10em;
   font-weight: 400;
 }
 
+h5, h6 {
+  color: var(--regular-text);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: unset;
+}
+
 p {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 400;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 a {
@@ -185,10 +193,6 @@ header p {
   padding: 1rem;
 } 
 
-.portfolio-preview-component p {
-  margin: unset;
-}
-
 .portfolio-preview-component .fake-preview-img {
   height: 15em;
   width: 100%;
@@ -196,4 +200,12 @@ header p {
 
   margin-bottom: 1rem;
   border-radius: 5px;
+}
+
+.portfolio-preview-component p {
+  margin: unset;
+}
+
+.portfolio-preview-component h5 {
+  margin-bottom: 1rem;
 }
