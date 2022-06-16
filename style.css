@@ -178,8 +178,13 @@ header p {
 }
 
 .portfolio-preview-component {
-  grid-row: 4 / 8; 
+  grid-row: 4 / 9; 
 
   background-color: #eeb334;
   border-radius: 10px;
+  padding: 0 1rem 1rem 1rem;
 } 
+
+.portfolio-preview-component p {
+  margin: unset;
+}
