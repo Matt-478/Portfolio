@@ -182,9 +182,18 @@ header p {
 
   background-color: #eeb334;
   border-radius: 10px;
-  padding: 0 1rem 1rem 1rem;
+  padding: 1rem;
 } 
 
 .portfolio-preview-component p {
   margin: unset;
+}
+
+.portfolio-preview-component .fake-preview-img {
+  height: 15em;
+  width: 100%;
+  background-color: bisque;
+
+  margin-bottom: 1rem;
+  border-radius: 5px;
 }
